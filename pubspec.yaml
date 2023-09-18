@@ -1,0 +1,20 @@
+name: cyclical_value_notifier
+description: A ValueNotifier implementation that periodically updates its value by fetching a new value from an asynchronous source enabling effortless management of real-time data.
+version: 1.0.0
+
+repository: https://github.com/Yodart/cyclical-value-notifier
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+  flutter: '>=1.17.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
