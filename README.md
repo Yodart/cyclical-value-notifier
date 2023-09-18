@@ -21,13 +21,13 @@
     cyclical_value_notifier: ^1.0.0  # Replace with the latest version
 ```
 
-2. **Import**: Import the package in your Dart code:
+2. **Import**: Import the package in your Dart code
 
 ```dart
 import 'package:cyclical_value_notifier/cyclical_value_notifier.dart';
 ```
 
-3. **Usage**: Import the package in your Dart code:
+3. **Usage**: 
 
 ```dart
 final notifier = CyclicalValueNotifier<int>(
