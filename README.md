@@ -43,6 +43,14 @@ final notifier = CyclicalValueNotifier<int>(
 
 // Access the latest data from the notifier
 final currentValue = notifier.value;
+
+// Or build a widget reactive to the changes on the notifier
+ValueListenableBuilder<int>(
+   valueListenable: notifier,
+   builder: (context, value, child) {
+      return Text('Current Value: $value');
+   },
+),
 ```
 
 ## Example
